@@ -27,6 +27,7 @@ scoop install git vscode nodejs
 ```powershell
 cd ~
 mkdir .ssh
+cd .ssh
 code config
 ```
 
@@ -38,6 +39,17 @@ Host github.com
   IdentityFile ~/.ssh/github.com
   IdentitiesOnly yes
 ```
+
+You can use this command to generate your ssh keys
+
+```powershell
+# assuming you're in the ~/.ssh folder
+ssh-keygen -t ed25519 -f github.com
+```
+
+Two new files should now be generated in the `~/.ssh` folder: 
+- github.com (public key, safe to share)
+- github.com.pub (private key, never share)
 
 
 ### Setting up a Hardhat Project
