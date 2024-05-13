@@ -1,1 +1,0 @@
-https://github.com/AyaHQ/futo-workshop.git
