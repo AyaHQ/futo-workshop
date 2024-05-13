@@ -135,3 +135,12 @@ Run the following command to deploy it to the sepolia testnet
 ```powershell
 npx hardhat ignition deploy ./ignitions/modules/Restaurant.ts --network sepolia
 ```
+
+
+### Useful Links
+
+- Block Explorer
+  - EtherScan: https://sepolia.etherscan.io/
+- Faucets:
+  - Alchemy: https://www.alchemy.com/faucets/ethereum-sepolia
+  - LearnWeb3: https://learnweb3.io/faucets/sepolia/
