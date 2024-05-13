@@ -112,6 +112,8 @@ const config: HardhatUserConfig = {
 export default config;
 ```
 
+Run the following command to deploy it to the sepolia testnet
+
 ```powershell
 npx hardhat ignition deploy ./ignitions/modules/Restaurant.ts --network sepolia
 ```
