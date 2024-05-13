@@ -58,6 +58,12 @@ https://gist.github.com/Adophilus/3de064b43aca33c0c62d5a62633114b0
 
 Copy and paste the contents of the solidity smart contract into `contracts/Restaurant.sol`. You would need to create the file because it won't exist initially.
 
+Then run this command
+
+```powershell
+npm add @openzeppelin/contracts
+```
+
 
 ### Compiling The Smart Contracts
 
@@ -112,7 +118,7 @@ const config: HardhatUserConfig = {
 export default config;
 ```
 
-Run the following command to deploy it to the sepolia testnet
+Run the following command to deploy it to the sepolia testnet 
 
 ```powershell
 npx hardhat ignition deploy ./ignitions/modules/Restaurant.ts --network sepolia
